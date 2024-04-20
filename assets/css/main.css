@@ -3783,3 +3783,17 @@ input, select, textarea {
 			}
 
 		}
+
+		.circular-img {
+			width: 200px; /* Set the width and height to your desired size */
+			height: 200px;
+			border-radius: 10
+			
+			
+			0%; /* This makes the image circular */
+			overflow: hidden; /* This ensures the image doesn't overflow the circular shape */
+		}
+		.circular-img img {
+			width: 50%; /* This ensures the image takes up the full space within the circular container */
+			height: auto; /* Maintains aspect ratio */
+		}
